@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>#1 CSS Page</title>
+    <style>/*FOLHA DE ESTILO 01 */
+    
+        body {
+            font: 100% Lucida Sans, Verdana;
+            margin: 20px;
+            line-height: 20px;
+
+        }
+
+        #top {
+            
+            background-color: #4CAF50; 
+            color: white;
+            padding: 15px;
+        }
+
+        .menu-item {
+            background-color: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            list-style-type: none;
+            padding: 2px;
+            cursor: pointer;
+
+        }
+        .menu-item:hover{
+            background-color: #FFFF;
+        }
+        
+        .menu-item:first-child{
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        
+        #menuBar {
+            width: 220px;
+            float: left;
+        }
+
+        #top, .menu-item, #footer, #sideBar {
+            border-radius: 4px;
+            margin: 4px;
+        }
+
+        #main {
+            padding: 10px;
+            margin: 0 230px;
+        }
+
+        #sideBar {
+            background-color: #32e4e7;
+            color: #ffff;
+            padding: 10px;
+            width: 180px;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            right: 0;
+        }
+
+        #footer {
+            border: 1px solid #d4d4d4;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+        }
+
+        .wrapper {
+            position: relative;
+            overflow: auto;
+        }
+
+        a {
+            color: black;
+            text-decoration: underline; 
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+       
+        </style> 
+        <style> /*FOLHA DE ESTILO 02 */
+        
+            body{
+                background-color: #d14836;
+                font-family: Arial;
+                line-height: 20px;
+            }
+            #main {
+                background-color: #ffffff;
+                padding: 20px;
+                font: 80% Verdana;
+                box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -webkit-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+
+                
+            }
+            #sideBar {
+                background-color: #F6DAD7;
+                color: #d14836;
+                padding: 20px;
+                box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -webkit-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+            }
+            #top {
+                color: #ffffff;
+                font-size: 28px;
+                line-height: 30px;
+                
+
+            }
+
+            #top h1 {
+                line-height: 50px;
+            }
+            #menuBar {
+               
+                float: right;
+        
+
+            }
+            #main h1, #main h2 {
+                color: #d14836;
+            }
+
+            .menu-item{
+                width: 155px;
+                background-color: #d14836 ;
+                border: 1px solid #d14836;
+                color:#ffffff;
+                border-radius: 40px;
+                padding: 5px;
+                list-style-type: none;
+                margin: 10px;
+                text-align: center;
+                cursor: pointer;
+                line-height: 20px;
+                box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -webkit-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                transition: 1s;                
+            }
+
+            .menu-item:hover{
+                background-color: #ffffff;
+                color: #d14836;
+                width: 170px;
+                
+            }
+            
+            .menu-item:nth-child(2){
+                background-color: #ffffff;
+                color: #d14836;
+                font-weight: bolder;
+            }
+            
+            #footer{
+                color: #ffffff;
+                text-align:  center;
+                font-size: 70%;
+                padding-inline: 20px;
+
+            }
+
+            a {
+                color: #d14836;
+                text-decoration: none;
+                
+            }
+
+            a:hover {
+                text-decoration: underline #d14836;
+            }
+
+            @media (max-width: 500px) {
+                body {
+                    background-color: pink;
+                    
+                }
+
+            }
+            
+        </style>
+        <style>
+            /* FOLHA DE ESTILO 03 */
+            
+            body {
+                font: 100% Verdana;
+                margin: 20px;
+                line-height: 26px;
+            }
+
+            h1, h2, h3 {
+                color: #4CAF50;
+            }
+
+            #sideBar {
+                background-color: #f1f1f1;
+                border: 1px solid #d4d4d4;
+                padding-left: 10px;
+            }
+
+            #top {
+                padding-top: 2px;
+            }
+            
+            #footer{
+                font-size: 70%;
+                text-align: center;
+                padding: 10px;
+                line-height: 14px;
+            }
+
+            #menuList {
+                list-style-type: none;
+                position: relative;
+                overflow: auto;
+                padding: 0;
+              
+            }
+            
+            .menu-item{
+                
+                background-color: #555555;
+                color: #f1f1f1;
+                margin: 4px;
+                padding: 3px;
+                width: 165px;
+                float: left;
+                text-align: center;
+                cursor: pointer;          
+                
+            }
+
+            .menu-item:hover{
+                background-color: #999999;
+            }
+
+            .menu-item:nth-child(3){
+                background-color:#4CAF50 ;
+            }
+
+            a{
+                color: black;
+            }
+
+            a:hover {
+                color: #4CAF50 ;
+            } 
+        </style>
+        <style>
+ 	/* FOLHA DE ESTILO 04 */
+            body{
+                background-color: black;
+                font:100% Courier New;
+                margin: 20px;
+                line-height: 26px;
+            }
+
+            #top, h1, h2 {
+                color: #84c754;
+                
+            }
+            #top {
+                padding: 15px;
+            }
+
+            #top h1,#top p {
+            margin: 0;
+            }
+            
+            .wrapper {
+                position: relative;
+                overflow: auto;
+            }
+
+            #menuBar {
+                color: #84c754;
+                cursor: pointer;
+                overflow: auto;
+                padding: 0px;
+                position: relative;
+
+            }
+
+            .menu-item:hover {
+                color: #ffffff;   
+
+            }
+            
+            .menu-item:nth-child(4) {
+                color: #ffffff;   
+
+            }
+            
+            #sideBar{
+                float: right;
+                width: 320px;
+                color: #ffffff;
+                border: 1px solid #ffffff;
+                padding: 10px;
+                border-radius: 4px;
+                top: 0;
+                right: 0;
+                position: absolute;
+                font-size: 80%;
+                line-height: 20px;
+
+                
+                
+                
+            }
+
+            a{
+                color: #ffffff;
+            }
+            a:hover{
+                color: #84c754;
+            }
+
+            #main {
+                color: #84c754;
+                padding: 15px;
+            }
+
+            #footer {
+                border: 1px solid #ffffff;
+                font-size: 70%;
+                line-height: 14px;
+                color: #ffffff;
+                text-align: center;
+                padding-inline: 10px;
+            }
+        </style>
+</head>
+
+  <body>
+    <div class="containerWrapper"> 
+        <div id="top">
+        <h1>Bem-vindo à minha página incial</h1>
+        <p>Use o menu para escolher diferentes folhas de estilo</p>
+        </div>
+        <div class="wrapper">
+            <div id="menuBar">
+                <ul id="menuList">
+                    <li onclick="changeStyle1()" class="menu-item"> Folha de Estilo #1 </li>
+                    <li onclick="changeStyle2()" class="menu-item"> Folha de Estilo #2 </li>
+                    <li onclick="changeStyle3()" class="menu-item"> Folha de Estilo #3 </li>
+                    <li onclick="changeStyle4()" class="menu-item"> Folha de Estilo #4 </li>
+                    <li onclick="cleanStyle()" class="menu-item"> SEM Folha de Estilo </li>
+                </ul>
+            </div>
+            <div id="main">
+            <h1>Mesma página, diferentes folhas de estilo</h1>
+            <p>
+            Esta é uma demonstração de como uma única folha de estilo pode mudar
+            completamente sua página HTML. Voê pode navegar entre os estilos da página
+            clicando nos links abaixo ou no menu.<br>
+            <a onclick="changeStyle1()" href="#"> Folha de Estilo #1</a>,
+            <a onclick="changeStyle2()" href="#"> Folha de Estilo #2</a>,
+            <a onclick="changeStyle3()" href="#"> Folha de Estilo #3</a>,
+            <a onclick="changeStyle4()" href="#"> Folha de Estilo #4</a>.
+            </p>
+
+            
+
+            <h2>SEM ESTILOS</h2>
+
+            <p>
+            Esta página usa elementos DIV para diferentes seções da página HTML.
+            Clique aqui para ver como a página se parece sem estilo nenhum:
+            <br><a href="#"> SEM Folha de Estilo.</a>    
+            </p>
+
+            
+            </div>
+
+            <div id="sideBar">
+            <h3>Barra Lateral</h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </p>
+            </div>
+        </div>
+        <div id="footer">
+        <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+        wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+        lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+        iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
+        odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+        dolore te feugait nulla facilisi.
+        </p>
+        </div>
+    </div> 
+    <script>
+        alert("Bem Vindo a minha tela de HTML e CSS!");
+        
+        function cleanStyle() {
+            document.styleSheets[0].disabled = true;
+            document.styleSheets[1].disabled = true;
+            document.styleSheets[2].disabled = true;
+            document.styleSheets[3].disabled = true;
+        }
+
+        function changeStyle1(){
+            cleanStyle();
+            document.styleSheets[0].disabled = false;
+            
+        }
+
+        function changeStyle2(){
+            cleanStyle();
+            document.styleSheets[1].disabled = false;
+            
+        }
+
+        function changeStyle3(){
+            cleanStyle();
+            document.styleSheets[2].disabled = false;
+            
+        }
+
+        function changeStyle4(){
+            cleanStyle();
+            document.styleSheets[3].disabled = false;
+            
+        }
+
+        changeStyle1();
+
+    </script>
+    
+  </body>
+</html>
