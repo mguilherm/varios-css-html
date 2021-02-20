@@ -1,91 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="UTF-8" />
     <title>#1 CSS Page</title>
-    <style>/*FOLHA DE ESTILO 01 */
+        <style> 
+        /*FOLHA DE ESTILO 01 */
     
-        body {
-            font: 100% Lucida Sans, Verdana;
-            margin: 20px;
-            line-height: 20px;
+            body {
+                font: 100% Lucida Sans, Verdana;
+                margin: 20px;
+                line-height: 20px;
 
-        }
+            }
 
-        #top {
+            #top {
+                
+                background-color: #4CAF50; 
+                color: white;
+                padding: 15px;
+            }
+
+            .menu-item {
+                background-color: #f1f1f1;
+                border: 1px solid #d4d4d4;
+                list-style-type: none;
+                padding: 2px;
+                cursor: pointer;
+
+            }
+            .menu-item:hover{
+                background-color: #FFFF;
+            }
             
-            background-color: #4CAF50; 
-            color: white;
-            padding: 15px;
-        }
+            .menu-item:first-child{
+                background-color: #4CAF50;
+                color: white;
+                font-weight: bold;
+            }
+            
+            #menuBar {
+                width: 220px;
+                float: left;
+            }
 
-        .menu-item {
-            background-color: #f1f1f1;
-            border: 1px solid #d4d4d4;
-            list-style-type: none;
-            padding: 2px;
-            cursor: pointer;
+            #top, .menu-item, #footer, #sideBar {
+                border-radius: 4px;
+                margin: 4px;
+            }
 
-        }
-        .menu-item:hover{
-            background-color: #FFFF;
-        }
+            #main {
+                padding: 10px;
+                margin: 0 230px;
+            }
+
+            #sideBar {
+                background-color: #32e4e7;
+                color: #ffff;
+                padding: 10px;
+                width: 180px;
+                position: absolute;
+                bottom: 0;
+                top: 0;
+                right: 0;
+            }
+
+            #footer {
+                border: 1px solid #d4d4d4;
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 10px;
+                font-size: 70%;
+                line-height: 14px;
+            }
+
+            .wrapper {
+                position: relative;
+                overflow: auto;
+            }
+
+            a {
+                color: black;
+                text-decoration: underline; 
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
         
-        .menu-item:first-child{
-            background-color: #4CAF50;
-            color: white;
-            font-weight: bold;
-        }
-        
-        #menuBar {
-            width: 220px;
-            float: left;
-        }
-
-        #top, .menu-item, #footer, #sideBar {
-            border-radius: 4px;
-            margin: 4px;
-        }
-
-        #main {
-            padding: 10px;
-            margin: 0 230px;
-        }
-
-        #sideBar {
-            background-color: #32e4e7;
-            color: #ffff;
-            padding: 10px;
-            width: 180px;
-            position: absolute;
-            bottom: 0;
-            top: 0;
-            right: 0;
-        }
-
-        #footer {
-            border: 1px solid #d4d4d4;
-            background-color: #f1f1f1;
-            text-align: center;
-            padding: 10px;
-            font-size: 70%;
-            line-height: 14px;
-        }
-
-        .wrapper {
-            position: relative;
-            overflow: auto;
-        }
-
-        a {
-            color: black;
-            text-decoration: underline; 
-        }
-
-        a:hover {
-            text-decoration: none;
-        }
-       
         </style> 
         <style> /*FOLHA DE ESTILO 02 */
         
@@ -259,7 +261,7 @@
             } 
         </style>
         <style>
- 	/* FOLHA DE ESTILO 04 */
+ 	        /* FOLHA DE ESTILO 04 */
             body{
                 background-color: black;
                 font:100% Courier New;
@@ -341,8 +343,114 @@
                 text-align: center;
                 padding-inline: 10px;
             }
+        </style> 
+
+        <style>
+            /* FOLHA DE ESTILO 05 */
+            body {
+                background-color: #201D1D;
+                font-family: Montserrat, Arial;
+                padding: 10px;
+            }
+            .menu-item{
+                list-style-type: none;
+                padding: 5px;
+                width: 200px;
+                background-color: #90867A ;
+                text-align: center;
+                padding: 10px;
+                float: right;
+                margin: 4px;
+                cursor: pointer; 
+                color: #F3EFE0;
+                transition: 1s;
+                border-radius: 40px;
+                box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -webkit-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+               
+                           
+                
+            }
+
+            .menu-item:hover{
+                width: 220px;
+                background-color: #F75C03;
+               
+
+            }
+            .menu-item:nth-child(5){
+                
+                background-color: #F75C03;
+                
+
+            }
+            h1, h2 {
+                color: #F3EFE0
+            }
+            #top {
+                padding: 30px;
+                text-align: end;       
+                background-color: #F75C03;
+                line-height: 10px;
+                color: #201D1D;
+                box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -webkit-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                
+            }
+
+            #sideBar{
+                color: #F75C03;
+                position: relative;
+                float: left;
+                width: 150px;
+                right: 40px;
+                padding: 50px;
+
+                
+            }
+
+            #main{
+                
+                padding: 60px;
+                position: absolute;
+                text-align: left;
+                background-color: #f3efe02d;
+                left: 220px;
+                right: 20px;
+                top: 235px;
+                box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -webkit-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                -moz-box-shadow: 0px 3px 14px -7px rgba(0,0,0,1);
+                
+                
+            }
+
+            #footer {
+                position: absolute;
+                bottom: 10px;
+                text-align: right;
+                padding-inline: 40px;
+                border-top: 1px solid #F75C03;
+                color: #f3efe0;
+                
+               
+            }
+
+              
+           
+           a{
+               color:#F75C03
+           }
+
+           a:hover{
+               color: #F3EFE0;
+               text-decoration: none;
+           }
         </style>
-</head>
+
+    </head>
 
   <body>
     <div class="containerWrapper"> 
@@ -357,6 +465,8 @@
                     <li onclick="changeStyle2()" class="menu-item"> Folha de Estilo #2 </li>
                     <li onclick="changeStyle3()" class="menu-item"> Folha de Estilo #3 </li>
                     <li onclick="changeStyle4()" class="menu-item"> Folha de Estilo #4 </li>
+                    <li onclick="changeStyle5()" class="menu-item"> Folha de Estilo #5 </li>
+                    
                     <li onclick="cleanStyle()" class="menu-item"> SEM Folha de Estilo </li>
                 </ul>
             </div>
@@ -369,7 +479,9 @@
             <a onclick="changeStyle1()" href="#"> Folha de Estilo #1</a>,
             <a onclick="changeStyle2()" href="#"> Folha de Estilo #2</a>,
             <a onclick="changeStyle3()" href="#"> Folha de Estilo #3</a>,
-            <a onclick="changeStyle4()" href="#"> Folha de Estilo #4</a>.
+            <a onclick="changeStyle4()" href="#"> Folha de Estilo #4</a>,
+            <a onclick="changeStyle5()" href="#"> Folha de Estilo #5</a>.
+            
             </p>
 
             
@@ -379,7 +491,7 @@
             <p>
             Esta página usa elementos DIV para diferentes seções da página HTML.
             Clique aqui para ver como a página se parece sem estilo nenhum:
-            <br><a href="#"> SEM Folha de Estilo.</a>    
+            <br><a onclick="cleanStyle()" href="#" > SEM Folha de Estilo.</a>    
             </p>
 
             
@@ -402,18 +514,21 @@
         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
         illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
         odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-        dolore te feugait nulla facilisi.
+        dolore te feugait nulla facilisi.  <br> <strong> Design by Marcos Guilherme B. Silva | 2021.</strong>
         </p>
         </div>
     </div> 
     <script>
-        alert("Bem Vindo a minha tela de HTML e CSS!");
-        
+       
+
         function cleanStyle() {
             document.styleSheets[0].disabled = true;
             document.styleSheets[1].disabled = true;
             document.styleSheets[2].disabled = true;
             document.styleSheets[3].disabled = true;
+            document.styleSheets[4].disabled = true;
+           
+            
         }
 
         function changeStyle1(){
@@ -440,7 +555,17 @@
             
         }
 
+        function changeStyle5(){
+            cleanStyle();
+            document.styleSheets[4].disabled = false;
+            
+        }
+
+                
+        
+
         changeStyle1();
+       
 
     </script>
     
