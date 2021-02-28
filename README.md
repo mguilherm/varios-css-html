@@ -42,7 +42,7 @@
 
   <p>Clique no link abaixo para uma pré-visualização da aplicação!</p>
   <br />
-  <a href="https://mguilherm.github.io/varios-css-html><img
+  <a href="https://mguilherm.github.io/varios-css-html"><img
       src="https://simpleicons.org/icons/github.svg"
       alt="HTML COM CSS"
       style="width: 50px;height:50px;"
