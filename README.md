@@ -4,7 +4,7 @@
 </h1>
 <p align="center"><em>Exercício de fixação dos conceitos em CSS apresentados na aula do curso de Desenvolvedor Front End do SENAI.</em></p>
 
-<h4 align="center">🚧 Em construção... 🚧</h4>
+<h3 align="center">🚧 Em construção... 🚧</h3>
 
 <h2>Sobre o Projeto</h2>
 
@@ -21,14 +21,12 @@
 <div>
 <ul>
   <li>
-    <a style="" href="https://www.w3schools.com/html/">
-      
-      HTML5
-    </a>
+    <a style="" href="https://www.w3schools.com/html/">     
+      HTML5</a>
+    
   </li>
   <li>
-    <a href="https://www.w3schools.com/css/default.asp">
-      
+    <a href="https://www.w3schools.com/css/default.asp">    
       CSS
     </a>
   </li>
@@ -48,7 +46,7 @@
     ><img
       src="https://simpleicons.org/icons/github.svg"
       alt="HTML COM CSS"
-      style="max-width: 100%"
+      style="max-width: 20%"
   /></a>
 
   <h2>Vamos começar?!</h2>
